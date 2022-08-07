@@ -10,3 +10,6 @@ A very simple Python program to autodetect distro and update it.
 Debian <br />
 Arch <br />
 Fedora <br />
+
+# Uses
+Putting this program on a timer would automatically update your system.
