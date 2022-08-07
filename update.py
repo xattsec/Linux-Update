@@ -7,17 +7,17 @@ if update.lower() == "yes":
     v = "arch"
     z = "fc"
     print("Checking distro...")
-    if v in platform.platform():
+    if v in platform.platform(): # Arch updating
         os.system('sudo pacman -Syu')
         os.system('yay -Syu')
-        print("Done updating.")
-    elif x in platform.platform():
+    elif x in platform.platform(): # Debian updating
         os.system('sudo apt update && sudo apt upgrade -y')
-        print("Done updating.")
-    elif z in platform.platform():
+    elif v in platform.platform(): # Fedora updating
         os.system('sudo dnf update && sudo dnf upgrade -y')
-        print("Done updating.")
     else:
         print("Could not find OS in selection.")
+        exit()
+    # Update should be done.
+    print("Done updating.")
 else:
     exit()
