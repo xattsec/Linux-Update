@@ -5,7 +5,7 @@ update = input("Would you like to update your machine?:\n")
 if update.lower() == "yes":
     x = "debian"
     v = "arch"
-    z = "fedora"
+    z = "fc"
     print("Checking distro...")
     if v in platform.platform():
         os.system('sudo pacman -Syu')
