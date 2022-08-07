@@ -3,7 +3,7 @@ import platform
 
 update = input("Would you like to update your machine?:\n")
 if update.lower() == "yes":
-    x = ['ubuntu', 'mint', 'kdeneon', 'deepin', 'kali', 'debian', 'nitrux', 'kubuntu', 'zorinos', 'tails']
+    x = "debian"
     v = "arch"
     z = "fedora"
     print("Checking distro...")
