@@ -6,7 +6,7 @@ A very simple Python program to autodetect distro and update it.
 *cd Linux-Update* <br />
 *python3 update.py* <br />
 
-# Compatability:
+# Compatibility:
 Debian <br />
 Arch <br />
 Fedora <br />
